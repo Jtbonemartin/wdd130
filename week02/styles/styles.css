@@ -1,0 +1,29 @@
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1, h2, h3 {
+    color: steelblue;
+}
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 10px;
+}
+aside {
+    margin: 1em;
+    border: 1px solid rgba(0, green, blue, 0.2);
+    padding: 1em;
+    background-color: #333;
+    text-align: center;
+}
