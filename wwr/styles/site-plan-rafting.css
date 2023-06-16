@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #cddc39;
+  }
+  
+  :root {
+    --secondary-color: #8bc34a;
+  }
+  
+  :root {
+    --accent-color: #ffc107;
+  }
+  
+  :root {
+    --additional-accent-color: #4caf50;
+  }
+  
+  header h1,
+  main > h1 {
+    font-family: "Arial", sans-serif;
+  }
+  
+  p,
+  body {
+    font-family: "Arial", sans-serif;
+  }
+  
+  .navigation {
+    background-color: var(--secondary-color);
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover {
+    color: var(--accent-color);
+  }
+  
+  .navigation a:hover,
+  .navigation a.active {
+    background-color: var(--primary-color);
+  }
+  
