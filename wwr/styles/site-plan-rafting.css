@@ -1,44 +1,57 @@
+@import url(https://fonts.google.com/specimen/Roboto+Mono);
+
 :root {
-    --primary-color: #cddc39;
+  --primary-color: #4A4238;
+  --secondary-color: #4D5359;
+  --accent1-color: #79C99E;
+  --accent2-color: #97DB4F;
+
+  --heading-font: "Roboto Mono", serif;
+  --paragraph-font: "Roboto Mono", serif;
+
+  --nav-background-color: #666666;
+  --nav-link-color: #FFFFFF;
+  --nav-hover-link-color: #71C397;
+  --nav-hover-background-color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+p {
+  padding: 25px;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  margin: 180,180 200;
+  padding: 20,20,20;
+}
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
   }
   
-  :root {
-    --secondary-color: #8bc34a;
-  }
-  
-  :root {
-    --accent-color: #ffc107;
-  }
-  
-  :root {
-    --additional-accent-color: #4caf50;
-  }
-  
-  header h1,
-  main > h1 {
-    font-family: "Arial", sans-serif;
-  }
-  
-  p,
-  body {
-    font-family: "Arial", sans-serif;
-  }
-  
-  .navigation {
-    background-color: var(--secondary-color);
-  }
-  
-  .navigation a {
-    color: #fff;
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
     text-decoration: none;
   }
   
-  .navigation a:hover {
-    color: var(--accent-color);
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
   }
-  
-  .navigation a:hover,
-  .navigation a.active {
-    background-color: var(--primary-color);
+
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
   }
-  
