@@ -1,13 +1,19 @@
 @import url(https://fonts.google.com/specimen/Roboto+Mono);
 
+@font-face {
+  font-family: RobotoMono;
+  src: url(styles\RobotoMono.ttf);
+}
+
 :root {
+  font-family: RobotoMono;
   --primary-color: #4A4238;
   --secondary-color: #4D5359;
   --accent1-color: #79C99E;
   --accent2-color: #97DB4F;
 
-  --heading-font: "Roboto Mono", serif;
-  --paragraph-font: "Roboto Mono", serif;
+  --heading-font:  RobotoMono;
+  --paragraph-font: RobotoMono;
 
   --nav-background-color: #666666;
   --nav-link-color: #FFFFFF;
