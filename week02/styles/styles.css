@@ -10,20 +10,31 @@ nav a {
 h1, h2, h3 {
     color: steelblue;
 }
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+aside img {
+    width: 200px;
+    height: auto;
+}
 p {
-    padding: 10px;
+    padding: 0;
 }
 aside {
+    width: 100%;
     margin: 1em;
-    border: 1px solid rgba(0, green, blue, 0.2);
+    border: 1px solid rgba(0, 128, 128, 0.2);
     padding: 1em;
     background-color: #333;
+    color: white;
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #333;
     text-align: center;
 }
