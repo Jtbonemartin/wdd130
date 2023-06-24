@@ -1,0 +1,70 @@
+@import url(https://fonts.google.com/specimen/Roboto+Mono);
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(styles\RobotoMono.ttf);
+}
+* {
+    --primary-color: #e6e3df;
+    --secondary-color: #6989D9;
+    --tertiary-color: #7D59B7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+header img{
+    width: 70px;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: RobotoMono, sans-serif;
+    color: var(--tertiary-color);
+}
+
+p {
+    font-family: RobotoMono, sans-serif;
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero article {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: var(--tertiary-color);
+}
+
+.sociallinks img{
+    width: 70px;
+}
