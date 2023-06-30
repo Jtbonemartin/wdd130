@@ -97,3 +97,9 @@ aside {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+.box h2 {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
