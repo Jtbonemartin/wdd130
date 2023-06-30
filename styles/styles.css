@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header, footer {
+header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
 }
@@ -50,6 +50,7 @@ aside h2{
     position: absolute;
     top: 47px;
     left: 150px;
+    color:antiquewhite;
 }
 aside {
     width: 100%;
@@ -82,25 +83,26 @@ footer {
     background-color: #ddd;
     color: #000;
 }
-.grid {
-  display: grid;
-  align-items: center;
-}
 
-main {
-  grid-column: 2/3;
-  margin: 1rem;
-}
-
-aside {
-  width: 20rem;
-  position: relative;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
 .box h2 {
-    position: absolute;
+    position: relative;
     top: 1%;
-    left: 50%;
+    left: 1%;
     transform: translate(-50%, -50%);
+    color:antiquewhite;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    align-items: center;
+  }
+  
+  aside {
+    margin: 1rem;
+  }
+  
+  main {
+    margin: 1rem;
+  }
+  
+  
