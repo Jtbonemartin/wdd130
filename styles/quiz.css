@@ -19,7 +19,7 @@ form#quiz-form textarea {
 }
 
 form#quiz-form button {
-    background-color: #4CAF50;
+    background-color: #2016e4;
     color: white;
     padding: 15px 20px;
     border: none;
@@ -27,5 +27,5 @@ form#quiz-form button {
 }
 
 form#quiz-form button:hover {
-    background-color: #161cc9;
+    background-color: #bb2d09;
 }
