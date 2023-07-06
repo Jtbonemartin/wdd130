@@ -1,0 +1,31 @@
+
+form#quiz-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form#quiz-form label,
+form#quiz-form input,
+form#quiz-form textarea,
+form#quiz-form select,
+form#quiz-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form#quiz-form textarea {
+    height: 100px;
+}
+
+form#quiz-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form#quiz-form button:hover {
+    background-color: #161cc9;
+}
