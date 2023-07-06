@@ -1,10 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+* {
+    background-color: #e5e5f3;
+    font-family: Merriweather, Georgia, serif;
+}
 form#quiz-form {
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+
+}
+h1 {
+    text-align: center;
 }
 
-form#quiz-form label,
 form#quiz-form input,
 form#quiz-form textarea,
 form#quiz-form select,
@@ -12,6 +22,7 @@ form#quiz-form button {
     display: block;
     width: 100%;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 form#quiz-form textarea {
@@ -28,4 +39,7 @@ form#quiz-form button {
 
 form#quiz-form button:hover {
     background-color: #bb2d09;
+}
+form#quiz-form label {
+    background-color: #e5e5f3;
 }
