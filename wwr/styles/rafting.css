@@ -35,7 +35,7 @@ nav ul {
   } 
   nav a {
     color: black;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
   }
 header img{
     width: 70px;
@@ -130,4 +130,12 @@ p {
   .history h2, .history p {
     margin: 0;
   } 
- 
+  .employees {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }  
+.employees img {
+  width: 300px;
+  height:auto;
+}
