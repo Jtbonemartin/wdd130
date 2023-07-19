@@ -141,10 +141,17 @@ p {
 }
 .trips{
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  grid-gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
 }
 .trips img {
   width: 300px;
   height:auto;
+}
+.trips p {
+  position: absolute;
 }
